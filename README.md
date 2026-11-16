@@ -15,7 +15,7 @@
 Aufbau: `{ themen: [...], woerter: [...] }`.
 
 **Themen** (`themen[]`): `id`, `name`, `typ` (`thema` oder `grammatik`), `niveau` (zunächst `null`).
-**Das Niveau (A1.1/A1.2) steht nur bei den Themen.** Ein Wort hat das Niveau seines Themas. So ändert man die Einteilung an einer Stelle.
+**Das Niveau (A1.1/A1.2) steht bei den Themen.** Ein Wort hat das Niveau seines Themas. Ein Unterthema kann ein eigenes Niveau haben (`unterthemen[].niveau`, zurzeit nur Farben = A1.1) und überschreibt dann das des Themas. Ein Wort hat immer genau ein Niveau; `DafProgress.niveauOf(wort)` liefert es.
 
 **Wörter** (`woerter[]`), je nach Wortart:
 
@@ -34,8 +34,9 @@ Aufbau: `{ themen: [...], woerter: [...] }`.
 | Verb: `trennbar`, `praefix` | bei trennbaren Verben ist `praesens` die Form des Stamms („rufe“), das Präfix steht extra („an“) |
 | Verb: `unregelmaessig`, `reflexiv`, `modalverb`, `hilfsverb` | Markierungen |
 | `einzelwort` | `false` bei Mehrwortausdrücken („wie viel“, „zum Beispiel“); Einzelwort-Spiele lassen sie aus |
-| `unterthema` | Zusatzkategorie quer zu den Themen: tiere, berufe, moebel, familie, farben, technik, kleidung, kueche, reise, haushalt (Liste in `unterthemen[]`) |
+| `unterthema` | Zusatzkategorie quer zu den Themen: tiere, berufe, moebel, familie, farben, technik, kleidung, kueche, reise (Liste in `unterthemen[]`) |
 | Verb: `partizip2`, `perfektHilfsverb` | z. B. `gegangen` und `sein`; bei trennbaren Verben mit Präfix („abgeholt“) |
+| Verb: `praeteritum` | nur bei backen und heißen (Formen vom Nutzer vorgegeben); sonst steht das Präteritum von sein/haben/Modalverben in `grammatik_a1.json` |
 | Verb: `kopula` | `true` bei sein, werden, bleiben, heißen, scheinen |
 | `negation` | `kein`/`keine` (Nomen, nach Genus) oder `nicht` (Verb, Adjektiv, Adverb) |
 | Präposition: `kasus`, `wechselpraeposition` | z. B. `["Dativ"]`; Wechselpräpositionen haben `["Akkusativ","Dativ"]` |
@@ -65,7 +66,7 @@ DafProgress.init().then(function () {          // lädt vocab_a1.json automatisc
   // 1) Wörter für die Runde holen (Fehlerwörter kommen bevorzugt)
   var woerter = DafProgress.pick({
     game: 'wortkran', n: 10, skill: 'artikel',
-    wortart: ['Nomen'], maxNiveau: 'A1.1'      // maxNiveau wirkt, sobald die Themen ein Niveau haben
+    wortart: ['Nomen'], maxNiveau: 'A1.1'      // maxNiveau wirkt, (Niveaus sind festgelegt)
   });
 
   // 2) Nach jeder Antwort melden
@@ -78,13 +79,12 @@ DafProgress.init().then(function () {          // lädt vocab_a1.json automatisc
 ```
 
 Weitere Funktionen: `candidates(filter)`, `weakest({limit, skill})`, `lookup(text)`, `getWord(id)`, `stats()`, `exportCode()` / `importCode(code)` (Fortschritt per Textcode auf ein anderes Gerät mitnehmen), `clear()`.
-Filter für `pick()`: `wortart`, `thema`, `maxNiveau`, `niveau`, `hat:['plural']` (nur Wörter mit diesem Feld), `exclude`, `mix` (Anteil Wiederholwörter, Standard 0.4), `nurFestgelegte`, `filter(fn)`.
+Filter für `pick()`: `wortart`, `thema`, `unterthema`, `maxNiveau`, `niveau`, `hat:['plural']` (nur Wörter mit diesem Feld), `exclude`, `mix` (Anteil Wiederholwörter, Standard 0.4), `nurFestgelegte`, `filter(fn)`.
 
 Ist der Speicher gesperrt (Privatmodus) oder voll, läuft das Spiel weiter, nur ohne Dauerspeicherung (`isPersistent()` ist dann `false`). Beschädigte Daten werden gesichert und nicht überschrieben.
 
 ## 3. Offen
 
-- Niveau je Thema festlegen (`themen_uebersicht.md`).
 - Spiele auf die gemeinsame Liste umstellen (Wortlisten aus dem Code entfernen, `pick()` und `record()` einbauen).
 - Wörter, die in den Spielen vorkommen, aber nicht in der Goethe-Liste: siehe `bericht_abdeckung.md`.
 - Nutzungsrechte der Goethe-Liste vor einer öffentlichen Veröffentlichung klären.

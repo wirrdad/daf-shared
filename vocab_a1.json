@@ -9,161 +9,161 @@
    "name": "Sich vorstellen, Begrüßen & Herkunft",
    "typ": "thema",
    "beschreibung": "Name, Adresse, Alter, hallo, danke, Länder",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "familie",
    "name": "Familie & Menschen",
    "typ": "thema",
    "beschreibung": "Mutter, Bruder, Freund, Mann, Frau, Kind",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "reisen",
    "name": "Reisen, Eigenschaften & Farben",
    "typ": "thema",
    "beschreibung": "Urlaub, Hotel, Gepäck, groß/klein, alt/neu, rot, blau",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "koerper",
    "name": "Körper, Gesundheit, Gefühle & Kleidung",
    "typ": "thema",
    "beschreibung": "Arm, Kopf, Arzt, krank, glücklich, Jacke, Schuh",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "wohnen",
    "name": "Wohnen, Möbel & Technik",
    "typ": "thema",
    "beschreibung": "Wohnung, Zimmer, Tisch, Computer, Handy",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "alltag",
    "name": "Alltag, Alltagsverben & Einkaufen",
    "typ": "thema",
    "beschreibung": "aufstehen, duschen, machen, kaufen, Preis, Geld",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "zeit",
    "name": "Zeit, Datum, Wetter & Natur",
    "typ": "thema",
    "beschreibung": "Uhr, Tag, heute, Montag, Sommer, Regen, Baum, Hund",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "essen",
    "name": "Essen, Trinken & Restaurant",
    "typ": "thema",
    "beschreibung": "Brot, Kaffee, kochen, Speisekarte, bestellen",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "stadt",
    "name": "Stadt, Verkehr & Orientierung",
    "typ": "thema",
    "beschreibung": "Bahn, Bus, links, rechts, Straße, Bahnhof",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "amt",
    "name": "Amt, Post & Kommunikation",
    "typ": "thema",
    "beschreibung": "Telefon, Brief, E-Mail, Bank, Formular, Polizei",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "beruf",
    "name": "Beruf, Arbeit & Lernen",
    "typ": "thema",
    "beschreibung": "Beruf, Firma, Schule, Kurs, Frage, Aufgabe",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "party",
    "name": "Freizeit & Feste",
    "typ": "thema",
    "beschreibung": "Hobby, Sport, Film, Geburtstag, Party, Geschenk",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "zahl",
    "name": "Zahlen & Mengen",
    "typ": "thema",
    "beschreibung": "eins bis tausend, viel, wenig, Meter, Liter",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "pronomen",
    "name": "Personalpronomen",
    "typ": "grammatik",
    "beschreibung": "ich, er, wir, sie, Sie",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "possessivartikel",
    "name": "Possessivartikel",
    "typ": "grammatik",
    "beschreibung": "mein, dein-, unser-, euer",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "artikel",
    "name": "Artikel",
    "typ": "grammatik",
    "beschreibung": "der, die, das, ein",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "negation",
    "name": "Negation",
    "typ": "grammatik",
    "beschreibung": "nicht, kein, nichts, nie",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "hilfsverben",
    "name": "sein, haben & werden",
    "typ": "grammatik",
    "beschreibung": "Hilfsverben",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "modalverben",
    "name": "Modalverben",
    "typ": "grammatik",
    "beschreibung": "können, müssen, dürfen, wollen",
-   "niveau": null
+   "niveau": "A1.2"
   },
   {
    "id": "fragewoerter",
    "name": "Fragewörter",
    "typ": "grammatik",
    "beschreibung": "wer, was, wo, wann, warum",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "praepositionen",
    "name": "Präpositionen",
    "typ": "grammatik",
    "beschreibung": "in, auf, mit, nach, von",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "konnektoren",
    "name": "Konnektoren",
    "typ": "grammatik",
    "beschreibung": "und, oder, aber, denn",
-   "niveau": null
+   "niveau": "A1.1"
   },
   {
    "id": "funktionswoerter",
    "name": "Weitere kleine Wörter",
    "typ": "grammatik",
    "beschreibung": "sehr, auch, nur, schon, noch",
-   "niveau": null
+   "niveau": "A1.1"
   }
  ],
  "woerter": [
@@ -750,9 +750,9 @@
    "id": "n-arbeit",
    "artikel": "die",
    "genus": "feminin",
-   "plural": "Arbeiten",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "goethe",
+   "pluralQuelle": "kein-plural",
    "thema": "beruf",
    "negation": "keine"
   },
@@ -1559,9 +1559,9 @@
    "id": "n-bier",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Biere",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -1811,9 +1811,9 @@
    "id": "n-brot",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Brote",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "goethe",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -2752,9 +2752,9 @@
    "id": "n-essen",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Essen",
-   "pluralGleich": true,
-   "pluralQuelle": "hueber",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -3371,9 +3371,9 @@
    "id": "n-fruehstueck",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Frühstücke",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -4674,9 +4674,9 @@
    "id": "n-kaffee",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Kaffees",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "vhs",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -5469,9 +5469,9 @@
    "id": "n-licht",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Lichter",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "wohnen",
    "negation": "kein"
   },
@@ -5504,7 +5504,7 @@
    "quelle": "goethe-a1",
    "wortart": "Adverb",
    "id": "adv-lieber",
-   "thema": "koerper",
+   "thema": "funktionswoerter",
    "negation": "nicht"
   },
   {
@@ -5525,7 +5525,7 @@
    "unregelmaessig": false,
    "reflexiv": false,
    "formenQuelle": "regel+tabelle",
-   "thema": "stadt",
+   "thema": "alltag",
    "partizip2": "gelegen",
    "perfektHilfsverb": "haben",
    "negation": "nicht"
@@ -5559,7 +5559,7 @@
    "quelle": "goethe-a1",
    "wortart": "Adjektiv",
    "id": "adj-lustig",
-   "thema": "koerper",
+   "thema": "reisen",
    "negation": "nicht"
   },
   {
@@ -5720,9 +5720,9 @@
    "id": "n-miete",
    "artikel": "die",
    "genus": "feminin",
-   "plural": "Mieten",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "wohnen",
    "negation": "keine"
   },
@@ -6900,9 +6900,9 @@
    "id": "n-schinken",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Schinken",
-   "pluralGleich": true,
-   "pluralQuelle": "goethe",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -7016,7 +7016,7 @@
    "unregelmaessig": false,
    "reflexiv": false,
    "formenQuelle": "regel+tabelle",
-   "thema": "koerper",
+   "thema": "essen",
    "partizip2": "geschmeckt",
    "perfektHilfsverb": "haben",
    "negation": "nicht"
@@ -7798,9 +7798,9 @@
    "id": "n-tee",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Tees",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "vhs",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -8247,9 +8247,9 @@
    "id": "n-urlaub",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Urlaube",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "vhs",
+   "pluralQuelle": "kein-plural",
    "thema": "reisen",
    "unterthema": "reise",
    "negation": "kein"
@@ -8659,9 +8659,9 @@
    "id": "n-wein",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Weine",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -8694,7 +8694,7 @@
    "plural": "Welten",
    "pluralGleich": false,
    "pluralQuelle": "hueber",
-   "thema": "vorstellen",
+   "thema": "alltag",
    "negation": "keine"
   },
   {
@@ -8846,9 +8846,9 @@
    "id": "n-wind",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Winde",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "hueber",
+   "pluralQuelle": "kein-plural",
    "thema": "zeit",
    "negation": "kein"
   },
@@ -10113,9 +10113,9 @@
    "id": "n-euro",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Euro",
-   "pluralGleich": true,
-   "pluralQuelle": "ergaenzt",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "alltag",
    "negation": "kein"
   },
@@ -10127,9 +10127,9 @@
    "id": "n-cent",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Cent",
-   "pluralGleich": true,
-   "pluralQuelle": "ergaenzt",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "alltag",
    "negation": "kein"
   },
@@ -10794,9 +10794,9 @@
    "id": "n-kaese",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Käse",
-   "pluralGleich": true,
-   "pluralQuelle": "ergaenzt",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -10834,9 +10834,9 @@
    "id": "n-mittagessen",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Mittagessen",
-   "pluralGleich": true,
-   "pluralQuelle": "ergaenzt",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -10853,9 +10853,9 @@
    "id": "n-abendessen",
    "artikel": "das",
    "genus": "neutrum",
-   "plural": "Abendessen",
-   "pluralGleich": true,
-   "pluralQuelle": "ergaenzt",
+   "plural": null,
+   "pluralGleich": false,
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -10929,9 +10929,9 @@
    "id": "n-joghurt",
    "artikel": "der",
    "genus": "maskulin",
-   "plural": "Joghurts",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "ergaenzt",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "kein"
   },
@@ -11003,9 +11003,9 @@
    "id": "n-schokolade",
    "artikel": "die",
    "genus": "feminin",
-   "plural": "Schokoladen",
+   "plural": null,
    "pluralGleich": false,
-   "pluralQuelle": "ergaenzt",
+   "pluralQuelle": "kein-plural",
    "thema": "essen",
    "negation": "keine"
   },
@@ -12807,7 +12807,7 @@
    "quelle": "goethe-a1",
    "wortart": "Adjektiv",
    "id": "adj-andere",
-   "thema": "artikel",
+   "thema": "funktionswoerter",
    "flektiert": true,
    "negation": "nicht"
   },
@@ -12846,7 +12846,7 @@
    "quelle": "goethe-a1",
    "wortart": "Adverb",
    "id": "adv-gern",
-   "thema": "koerper",
+   "thema": "funktionswoerter",
    "negation": "nicht"
   },
   {
@@ -13086,55 +13086,64 @@
    "id": "tiere",
    "name": "Tiere",
    "thema": "zeit",
-   "woerter": 10
+   "woerter": 10,
+   "niveau": null
   },
   {
    "id": "berufe",
    "name": "Berufe",
    "thema": "beruf",
-   "woerter": 11
+   "woerter": 11,
+   "niveau": null
   },
   {
    "id": "moebel",
    "name": "Möbel",
    "thema": "wohnen",
-   "woerter": 10
+   "woerter": 10,
+   "niveau": null
   },
   {
    "id": "familie",
    "name": "Familie",
    "thema": "familie",
-   "woerter": 22
+   "woerter": 22,
+   "niveau": null
   },
   {
    "id": "farben",
    "name": "Farben",
    "thema": "reisen",
-   "woerter": 10
+   "woerter": 10,
+   "niveau": "A1.1"
   },
   {
    "id": "technik",
    "name": "Technik",
    "thema": "wohnen",
-   "woerter": 8
+   "woerter": 8,
+   "niveau": null
   },
   {
    "id": "kleidung",
    "name": "Kleidung",
    "thema": "koerper",
-   "woerter": 13
+   "woerter": 13,
+   "niveau": null
   },
   {
    "id": "kueche",
    "name": "Küche",
    "thema": "essen",
-   "woerter": 4
+   "woerter": 4,
+   "niveau": null
   },
   {
    "id": "reise",
    "name": "Reisen",
    "thema": "reisen",
-   "woerter": 14
+   "woerter": 14,
+   "niveau": null
   }
  ]
 }
