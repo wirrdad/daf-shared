@@ -1,0 +1,522 @@
+{
+ "version": 1,
+ "niveau": "A1",
+ "hinweis": "Geschlossene Wortklassen als Tabellen. Die Vokabelliste (vocab_a1.json) enthält die Grundformen, hier stehen alle Kasusformen. Genitiv ist nur für spätere Niveaus gedacht.",
+ "kasus": [
+  "Nominativ",
+  "Akkusativ",
+  "Dativ",
+  "Genitiv"
+ ],
+ "genus": [
+  "maskulin",
+  "feminin",
+  "neutrum",
+  "plural"
+ ],
+ "artikel": {
+  "bestimmt": {
+   "Nominativ": {
+    "maskulin": "der",
+    "feminin": "die",
+    "neutrum": "das",
+    "plural": "die"
+   },
+   "Akkusativ": {
+    "maskulin": "den",
+    "feminin": "die",
+    "neutrum": "das",
+    "plural": "die"
+   },
+   "Dativ": {
+    "maskulin": "dem",
+    "feminin": "der",
+    "neutrum": "dem",
+    "plural": "den"
+   },
+   "Genitiv": {
+    "maskulin": "des",
+    "feminin": "der",
+    "neutrum": "des",
+    "plural": "der"
+   }
+  },
+  "unbestimmt": {
+   "Nominativ": {
+    "maskulin": "ein",
+    "feminin": "eine",
+    "neutrum": "ein",
+    "plural": null
+   },
+   "Akkusativ": {
+    "maskulin": "einen",
+    "feminin": "eine",
+    "neutrum": "ein",
+    "plural": null
+   },
+   "Dativ": {
+    "maskulin": "einem",
+    "feminin": "einer",
+    "neutrum": "einem",
+    "plural": null
+   },
+   "Genitiv": {
+    "maskulin": "eines",
+    "feminin": "einer",
+    "neutrum": "eines",
+    "plural": null
+   }
+  },
+  "negativ (kein)": {
+   "Nominativ": {
+    "maskulin": "kein",
+    "feminin": "keine",
+    "neutrum": "kein",
+    "plural": "keine"
+   },
+   "Akkusativ": {
+    "maskulin": "keinen",
+    "feminin": "keine",
+    "neutrum": "kein",
+    "plural": "keine"
+   },
+   "Dativ": {
+    "maskulin": "keinem",
+    "feminin": "keiner",
+    "neutrum": "keinem",
+    "plural": "keinen"
+   },
+   "Genitiv": {
+    "maskulin": "keines",
+    "feminin": "keiner",
+    "neutrum": "keines",
+    "plural": "keiner"
+   }
+  }
+ },
+ "possessivartikel": {
+  "mein": {
+   "Nominativ": {
+    "maskulin": "mein",
+    "feminin": "meine",
+    "neutrum": "mein",
+    "plural": "meine"
+   },
+   "Akkusativ": {
+    "maskulin": "meinen",
+    "feminin": "meine",
+    "neutrum": "mein",
+    "plural": "meine"
+   },
+   "Dativ": {
+    "maskulin": "meinem",
+    "feminin": "meiner",
+    "neutrum": "meinem",
+    "plural": "meinen"
+   },
+   "Genitiv": {
+    "maskulin": "meines",
+    "feminin": "meiner",
+    "neutrum": "meines",
+    "plural": "meiner"
+   }
+  },
+  "dein": {
+   "Nominativ": {
+    "maskulin": "dein",
+    "feminin": "deine",
+    "neutrum": "dein",
+    "plural": "deine"
+   },
+   "Akkusativ": {
+    "maskulin": "deinen",
+    "feminin": "deine",
+    "neutrum": "dein",
+    "plural": "deine"
+   },
+   "Dativ": {
+    "maskulin": "deinem",
+    "feminin": "deiner",
+    "neutrum": "deinem",
+    "plural": "deinen"
+   },
+   "Genitiv": {
+    "maskulin": "deines",
+    "feminin": "deiner",
+    "neutrum": "deines",
+    "plural": "deiner"
+   }
+  },
+  "sein": {
+   "Nominativ": {
+    "maskulin": "sein",
+    "feminin": "seine",
+    "neutrum": "sein",
+    "plural": "seine"
+   },
+   "Akkusativ": {
+    "maskulin": "seinen",
+    "feminin": "seine",
+    "neutrum": "sein",
+    "plural": "seine"
+   },
+   "Dativ": {
+    "maskulin": "seinem",
+    "feminin": "seiner",
+    "neutrum": "seinem",
+    "plural": "seinen"
+   },
+   "Genitiv": {
+    "maskulin": "seines",
+    "feminin": "seiner",
+    "neutrum": "seines",
+    "plural": "seiner"
+   }
+  },
+  "ihr": {
+   "Nominativ": {
+    "maskulin": "ihr",
+    "feminin": "ihre",
+    "neutrum": "ihr",
+    "plural": "ihre"
+   },
+   "Akkusativ": {
+    "maskulin": "ihren",
+    "feminin": "ihre",
+    "neutrum": "ihr",
+    "plural": "ihre"
+   },
+   "Dativ": {
+    "maskulin": "ihrem",
+    "feminin": "ihrer",
+    "neutrum": "ihrem",
+    "plural": "ihren"
+   },
+   "Genitiv": {
+    "maskulin": "ihres",
+    "feminin": "ihrer",
+    "neutrum": "ihres",
+    "plural": "ihrer"
+   }
+  },
+  "unser": {
+   "Nominativ": {
+    "maskulin": "unser",
+    "feminin": "unsere",
+    "neutrum": "unser",
+    "plural": "unsere"
+   },
+   "Akkusativ": {
+    "maskulin": "unseren",
+    "feminin": "unsere",
+    "neutrum": "unser",
+    "plural": "unsere"
+   },
+   "Dativ": {
+    "maskulin": "unserem",
+    "feminin": "unserer",
+    "neutrum": "unserem",
+    "plural": "unseren"
+   },
+   "Genitiv": {
+    "maskulin": "unseres",
+    "feminin": "unserer",
+    "neutrum": "unseres",
+    "plural": "unserer"
+   }
+  },
+  "euer": {
+   "Nominativ": {
+    "maskulin": "euer",
+    "feminin": "eure",
+    "neutrum": "euer",
+    "plural": "eure"
+   },
+   "Akkusativ": {
+    "maskulin": "euren",
+    "feminin": "eure",
+    "neutrum": "euer",
+    "plural": "eure"
+   },
+   "Dativ": {
+    "maskulin": "eurem",
+    "feminin": "eurer",
+    "neutrum": "eurem",
+    "plural": "euren"
+   },
+   "Genitiv": {
+    "maskulin": "eures",
+    "feminin": "eurer",
+    "neutrum": "eures",
+    "plural": "eurer"
+   }
+  },
+  "Ihr": {
+   "Nominativ": {
+    "maskulin": "Ihr",
+    "feminin": "Ihre",
+    "neutrum": "Ihr",
+    "plural": "Ihre"
+   },
+   "Akkusativ": {
+    "maskulin": "Ihren",
+    "feminin": "Ihre",
+    "neutrum": "Ihr",
+    "plural": "Ihre"
+   },
+   "Dativ": {
+    "maskulin": "Ihrem",
+    "feminin": "Ihrer",
+    "neutrum": "Ihrem",
+    "plural": "Ihren"
+   },
+   "Genitiv": {
+    "maskulin": "Ihres",
+    "feminin": "Ihrer",
+    "neutrum": "Ihres",
+    "plural": "Ihrer"
+   }
+  }
+ },
+ "der-woerter": {
+  "dieser": {
+   "Nominativ": {
+    "maskulin": "dieser",
+    "feminin": "diese",
+    "neutrum": "dieses",
+    "plural": "diese"
+   },
+   "Akkusativ": {
+    "maskulin": "diesen",
+    "feminin": "diese",
+    "neutrum": "dieses",
+    "plural": "diese"
+   },
+   "Dativ": {
+    "maskulin": "diesem",
+    "feminin": "dieser",
+    "neutrum": "diesem",
+    "plural": "diesen"
+   },
+   "Genitiv": {
+    "maskulin": "dieses",
+    "feminin": "dieser",
+    "neutrum": "dieses",
+    "plural": "dieser"
+   }
+  },
+  "jeder": {
+   "Nominativ": {
+    "maskulin": "jeder",
+    "feminin": "jede",
+    "neutrum": "jedes",
+    "plural": null
+   },
+   "Akkusativ": {
+    "maskulin": "jeden",
+    "feminin": "jede",
+    "neutrum": "jedes",
+    "plural": null
+   },
+   "Dativ": {
+    "maskulin": "jedem",
+    "feminin": "jeder",
+    "neutrum": "jedem",
+    "plural": null
+   },
+   "Genitiv": {
+    "maskulin": "jedes",
+    "feminin": "jeder",
+    "neutrum": "jedes",
+    "plural": null
+   }
+  },
+  "welcher": {
+   "Nominativ": {
+    "maskulin": "welcher",
+    "feminin": "welche",
+    "neutrum": "welches",
+    "plural": "welche"
+   },
+   "Akkusativ": {
+    "maskulin": "welchen",
+    "feminin": "welche",
+    "neutrum": "welches",
+    "plural": "welche"
+   },
+   "Dativ": {
+    "maskulin": "welchem",
+    "feminin": "welcher",
+    "neutrum": "welchem",
+    "plural": "welchen"
+   },
+   "Genitiv": {
+    "maskulin": "welches",
+    "feminin": "welcher",
+    "neutrum": "welches",
+    "plural": "welcher"
+   }
+  }
+ },
+ "personalpronomen": [
+  {
+   "person": "1",
+   "numerus": "Sg",
+   "Nominativ": "ich",
+   "Akkusativ": "mich",
+   "Dativ": "mir",
+   "reflexiv": "mich"
+  },
+  {
+   "person": "2",
+   "numerus": "Sg",
+   "Nominativ": "du",
+   "Akkusativ": "dich",
+   "Dativ": "dir",
+   "reflexiv": "dich"
+  },
+  {
+   "person": "3",
+   "numerus": "Sg",
+   "genus": "maskulin",
+   "Nominativ": "er",
+   "Akkusativ": "ihn",
+   "Dativ": "ihm",
+   "reflexiv": "sich"
+  },
+  {
+   "person": "3",
+   "numerus": "Sg",
+   "genus": "feminin",
+   "Nominativ": "sie",
+   "Akkusativ": "sie",
+   "Dativ": "ihr",
+   "reflexiv": "sich"
+  },
+  {
+   "person": "3",
+   "numerus": "Sg",
+   "genus": "neutrum",
+   "Nominativ": "es",
+   "Akkusativ": "es",
+   "Dativ": "ihm",
+   "reflexiv": "sich"
+  },
+  {
+   "person": "1",
+   "numerus": "Pl",
+   "Nominativ": "wir",
+   "Akkusativ": "uns",
+   "Dativ": "uns",
+   "reflexiv": "uns"
+  },
+  {
+   "person": "2",
+   "numerus": "Pl",
+   "Nominativ": "ihr",
+   "Akkusativ": "euch",
+   "Dativ": "euch",
+   "reflexiv": "euch"
+  },
+  {
+   "person": "3",
+   "numerus": "Pl",
+   "Nominativ": "sie",
+   "Akkusativ": "sie",
+   "Dativ": "ihnen",
+   "reflexiv": "sich"
+  },
+  {
+   "person": "höflich",
+   "numerus": "Sg/Pl",
+   "Nominativ": "Sie",
+   "Akkusativ": "Sie",
+   "Dativ": "Ihnen",
+   "reflexiv": "sich"
+  }
+ ],
+ "praeteritum": {
+  "sein": {
+   "ich": "war",
+   "du": "warst",
+   "er": "war",
+   "wir": "waren",
+   "ihr": "wart",
+   "sie": "waren"
+  },
+  "haben": {
+   "ich": "hatte",
+   "du": "hattest",
+   "er": "hatte",
+   "wir": "hatten",
+   "ihr": "hattet",
+   "sie": "hatten"
+  },
+  "werden": {
+   "ich": "wurde",
+   "du": "wurdest",
+   "er": "wurde",
+   "wir": "wurden",
+   "ihr": "wurdet",
+   "sie": "wurden"
+  },
+  "können": {
+   "ich": "konnte",
+   "du": "konntest",
+   "er": "konnte",
+   "wir": "konnten",
+   "ihr": "konntet",
+   "sie": "konnten"
+  },
+  "müssen": {
+   "ich": "musste",
+   "du": "musstest",
+   "er": "musste",
+   "wir": "mussten",
+   "ihr": "musstet",
+   "sie": "mussten"
+  },
+  "dürfen": {
+   "ich": "durfte",
+   "du": "durftest",
+   "er": "durfte",
+   "wir": "durften",
+   "ihr": "durftet",
+   "sie": "durften"
+  },
+  "sollen": {
+   "ich": "sollte",
+   "du": "solltest",
+   "er": "sollte",
+   "wir": "sollten",
+   "ihr": "solltet",
+   "sie": "sollten"
+  },
+  "wollen": {
+   "ich": "wollte",
+   "du": "wolltest",
+   "er": "wollte",
+   "wir": "wollten",
+   "ihr": "wolltet",
+   "sie": "wollten"
+  },
+  "mögen": {
+   "ich": "mochte",
+   "du": "mochtest",
+   "er": "mochte",
+   "wir": "mochten",
+   "ihr": "mochtet",
+   "sie": "mochten"
+  }
+ },
+ "negation": {
+  "kein": "vor Nomen ohne Artikel oder mit unbestimmtem Artikel: Ich habe keinen Hund.",
+  "nicht": "bei Verben, Adjektiven, Adverbien und Satzteilen mit bestimmtem Artikel: Ich komme nicht. Der Tisch ist nicht neu.",
+  "nichts/nie": "nichts = kein Ding, nie = zu keiner Zeit"
+ },
+ "praepositionen": {
+  "Dativ": "ab aus bei mit nach seit von zu gegenüber",
+  "Akkusativ": "bis durch für gegen ohne um",
+  "Wechsel (Akkusativ bei Richtung/wohin, Dativ bei Ort/wo)": "an auf in über unter vor zwischen"
+ }
+}
